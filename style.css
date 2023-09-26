@@ -1,0 +1,66 @@
+* {
+
+    --principal-color: rgb(48, 44, 44);
+    --secundary-color: rgb(54, 52, 52);
+    --text-color: #f3f3f3;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--principal-color);
+}
+
+#container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secundary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    color: var(--text-color);
+}
+
+
+h1 {
+    color: var(--text-color);
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1eb6a9;
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+#datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+h4 {
+    margin: auto auto;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(245, 244, 241, 0.555);
+    border-radius: 20%;
+
+}
+
+img {
+
+    background-color: rgba(245, 244, 241, 0.555);
+    border-radius: 20%;
+
+}
